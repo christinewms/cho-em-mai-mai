@@ -1,5 +1,5 @@
 macos_instance:
-  image: catalina-xcode
+  image: monterey-base
   cpu: 4
   memory: 2G
 
